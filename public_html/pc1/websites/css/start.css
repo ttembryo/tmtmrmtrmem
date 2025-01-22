@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(101, 152, 247);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    background-color: black;
+    background-image: url('https://images8.alphacoders.com/132/thumb-1920-1326562.jpeg');
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+  
+}
+
+main {
+    display: block;
+}
+
+#container {
+    gap: 50px;
+    padding: 150px;
+
+} 
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(104, 104, 233);
+    font-size: 40px;
+}
+
+a {
+    color: rgb(177, 117, 255);
+}
+
+.grid-item {
+    background-color: rgba(78, 142, 188, 0.208);
+    min-block-size: 10;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+button {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(137, 165, 220);
+    color: rgb(255, 255, 255);
+    border: solid 3px rgb(145, 209, 245);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+button:hover {
+    background-color: rgb(190, 156, 220);
+    color: rgb(236, 218, 255); 
+    border: solid 3px rgb(243, 180, 249);
+
+}
+
+
+
+
+
+

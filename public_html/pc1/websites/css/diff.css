@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    font-family: "Sniglet", system-ui;
+    font-size: 30px;
+    background: rgb(227, 225, 255);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(152, 248, 255) 100%);
+   
+    color: rgb(111, 181, 199);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(121, 229, 236);
+}
+
+figure {
+    text-align: center;
+}
+
+
+
+#shots {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#shots {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#shots img {
+    width: auto;
+    height: 8%;
+}
+
+#shots-item { 
+    background-color: rgba(255, 255, 255, 0.568);
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    height: 450px;
+} 
+
+#shots2 { 
+    background-color: rgba(255, 255, 255, 0.568);
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    height: 450px;
+} 
+
+#shots3 { 
+    background-color: rgba(255, 255, 255, 0.568);
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    height: 450px;
+} 
+
+.border {
+    box-shadow: 0px 0px rgb(0, 0, 0);
+    border-radius: 30px;
+}

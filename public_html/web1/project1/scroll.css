@@ -1,0 +1,189 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body { 
+    background-color: rgb(253, 255, 162);
+    color: rgb(78, 141, 78);
+    padding: 0;
+}
+
+#interests {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+   
+    gap: 10px;
+}
+
+#interests img {
+    width: auto;
+    height: 100%;
+}
+
+#interests-item { 
+    background-color: rgb(161, 255, 107);
+    overflow-x: auto;
+    height: 100px;
+    width: 100px
+
+} 
+
+
+
+
+/* old stylesheet */
+
+/* * { 
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body { 
+    background-image: url('https://i.pinimg.com/originals/53/4c/55/534c550bfcea8e946113412ba49cc76b.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-color: rgb(234, 224, 243);
+    box-sizing: 10;
+    color: rgb(200, 244, 250);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 0;
+    
+}
+
+to automatically scale the background you fucking cretin 
+@media screen and (min-width: 1700px) {
+    body {
+        background-size: 100% auto;
+    }
+}
+
+
+h1 { 
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 30px rgb(183, 217, 238);
+}
+
+p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(167, 210, 236)
+
+}
+
+figcaption {
+    font-size: 10px;
+    color: rgb(172, 188, 208);
+    text-shadow: none;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.musics-item figure img { 
+    height: 10%;
+    width: auto;
+}
+
+
+
+
+
+.pfp-item img {
+    height: 270px;
+    width: auto;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+
+
+#container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: auto;
+    max-width: 800px;
+
+}
+
+.info-item {
+    background-color: rgb(251, 255, 255);
+    width: 800px;
+    grid-row: 1;
+    border: 10px blue;
+    padding: 30;
+    align-items: center;
+}
+
+
+#musics {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: auto;
+    max-width: 800px;
+
+}
+
+.musics-item {
+    background-color: rgb(251, 255, 255);
+    grid-row: 2;
+    min-block-size: 10;
+    border: 10px blue;
+    align-items: center;
+
+}
+
+
+
+#characters { 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px white;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    border-radius: 20px;
+    height: 450px;
+    gap: 20px;   
+} 
+
+
+#characters {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#characters img {
+    border-radius: 30px;
+    width: auto;
+    padding: 20px;
+    height: 40%;
+    box-shadow: 0px 0px 10px rgb(222, 244, 255);
+} 
+
+
+
+
+.border {
+    box-shadow: 0px 0px 20px white;
+    border-radius: 30px;
+} */

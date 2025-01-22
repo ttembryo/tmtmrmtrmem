@@ -1,0 +1,274 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body { 
+    background-image: url('https://i.pinimg.com/originals/53/4c/55/534c550bfcea8e946113412ba49cc76b.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-color: rgb(234, 224, 243);
+    color: rgb(200, 244, 250);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+/* to automatically scale the background you fucking cretin */
+@media screen and (min-width: 1700px) {
+    body {
+        background-size: 100% auto;
+    }
+}
+
+
+h1 { 
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 30px rgb(183, 217, 238);
+}
+
+p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(167, 210, 236)
+
+}
+
+figcaption {
+    font-size: 10px;
+    color: rgb(172, 188, 208);
+    text-shadow: none;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* specific pixel height instead of percentage to have more control over the size of the images */
+.musics-item.border img { 
+    height: 150px;
+    width: auto;
+}
+
+
+
+
+
+.pfp-item img {
+    height: 270px;
+    width: auto;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+
+
+#container {
+    margin: 50px auto 50px auto;
+    width: auto;
+    max-width: 800px;
+
+}
+
+/* padding is not what you want here, better to use margin */
+.info-item {
+    background-color: rgb(251, 255, 255);
+    /* width: 800px; that's great and all, but you want something a bit more adaptive */
+    width: 100%;
+    max-width: 800px;
+    /* that basically means that on a display under 800px, instead of overflow it will start scaling to fit the window */
+    margin: 50px auto 50px auto;
+    /* up left down right */
+    align-items: center;
+}
+
+
+#musics {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: auto;
+    max-width: 800px;
+
+}
+
+.musics-item {
+    background-color: rgb(251, 255, 255);
+    border: 10px blue;
+    align-items: center;
+}
+
+.musics-item p {
+    margin: 50px;
+}
+
+
+
+#characters { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px white;
+    border-radius: 20px;
+    height: 450px;
+    gap: 20px;  
+} 
+
+
+#characters-item {
+    scrollbar-color: rgb(170, 238, 255) #ffffff;
+
+    max-width: 800px;
+
+    margin: 50px auto 50px auto;
+}
+
+#characters{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#characters img {
+    border-radius: 30px;
+    width: auto;
+    margin: 50px auto 50px auto;
+    height: 300px;
+    width: auto;
+
+} 
+
+
+#image {
+    margin: 50px auto 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 500px;
+    max-width: 800px;
+
+}
+
+.image-item {
+    background-color: rgb(251, 255, 255);
+    align-items: center;
+}
+
+.image-item img {
+    border-radius: 30px;
+}
+
+.image-item p {
+    margin: 10px;
+}
+
+
+.border {
+    box-shadow: 0px 0px 20px white;
+    border-radius: 30px;
+}
+
+/* #container {
+    padding: 200px;
+    display: grid;
+
+    /*grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));*/
+    /*
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.grid-item {
+    background-color: rgb(251, 255, 255);
+    
+
+    min-block-size: 10;
+    border: 10px blue;
+    align-items: center;
+    
+}
+
+
+.grid-item.a {
+    color: rgb(216, 247, 246);
+    text-shadow: 0px 3px rgb(196, 227, 247);
+    grid-column: 1 / 3;
+    grid-row: 1;
+    height: 300px;
+    padding: 30px;
+}
+
+.grid-item.b {
+    color: rgb(216, 247, 246);
+    text-shadow: 0px 3px rgb(196, 227, 247);
+    grid-column: 1;
+    grid-row: 2;
+    height: 500px;
+    padding: 30px;
+}
+
+.grid-item.c {
+    color: rgb(216, 247, 246);
+    text-shadow: 0px 3px rgb(196, 227, 247);
+    grid-column: 2;
+    grid-row: 2;
+    height: 500px;
+    padding: 30px;
+   
+}
+
+.grid-item.d {
+    color: rgb(216, 247, 246);
+    text-shadow: 0px 3px rgb(196, 227, 247);
+    grid-column: 1 / 3;
+    grid-row: 3;
+    height: 700px;
+    padding: 30px;
+   
+}
+
+.grid-item.e {
+    padding: 30px;
+    grid-column: 1 /3;
+    grid-row: 4;
+    size: 50px 50px;
+    align-items: center;
+}
+
+.grid-item.e img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: max-content;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.border {
+    box-shadow: 0px 0px 50px white;
+    border-radius: 30px;
+}
+
+p1 {
+    text-align: center;
+}
+
+*/
+
+footer {
+    color: rgb(177, 147, 178);
+    font-size: 30px;
+}
+
+
+

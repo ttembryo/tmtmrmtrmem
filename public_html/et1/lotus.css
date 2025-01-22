@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    color: rgb(202, 78, 226);
+}
+
+body {
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    background: rgb(227, 225, 255);
+    background: linear-gradient(180deg, rgb(234, 166, 248) 0%, rgb(255, 231, 247) 100%);
+   
+    color: rgb(225, 105, 230);
+}
+
+figure img {
+    height: 350px;
+    border-radius: 30px;
+
+}
+
+#container {
+    display: grid;
+    padding: 25px;
+    gap: 50px;
+}
+
+.block {
+    background-color: rgba(255, 255, 255, 0.363);
+    min-block-size: 10;
+    align-items: center; 
+    gap: 100px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.block img {
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,175 @@
+/* basic reset ... */
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(139, 241, 241);
+    line-height: 19px;
+    margin-left: 10px;
+    padding: 80px;
+}
+
+h1 {
+    text-shadow: 0px 0px 10px rgb(19, 121, 255);
+    text-align: center;
+}
+
+p1 {
+    padding: 20px;
+    color: rgb(111, 188, 240);
+    text-shadow: 1px 10px 0px rgb(18, 33, 85);
+}
+
+p2 {
+    color: rgb(174, 76, 255);
+    text-shadow: 1px 10px 0px rgb(44, 4, 139);
+    font-size: 30px;
+}
+
+figure {
+    text-align: center;
+}
+
+/*#container {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    border-radius: 10px;
+
+}
+
+.grid-item {
+    background-color: rgb(0, 0, 0);
+    min-block-size: 10;
+    box-shadow: 0px 0px 50px rgb(0, 0, 102);
+    height: 300px;
+    align-items: center;  
+}
+
+.grid-item img{
+    height: 100%;
+    width: auto;
+}*/ 
+
+
+
+
+#pics1 {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#pics1 img {
+    width: auto;
+    height: 10%;
+}
+
+#pics1-item { 
+    background-color: rgb(0, 0, 0);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 73);
+    scrollbar-color: rgb(6, 3, 43) #000000;
+
+    height: 300px;
+} 
+
+
+
+#pics2 {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#pics2 img {
+    width: auto;
+    height: 10%;
+}
+
+#pics2-item { 
+    background-color: rgb(0, 0, 0);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 73);
+    scrollbar-color: rgb(6, 3, 43) #000000;
+
+
+    height: 300px;
+} 
+
+
+
+#pics3 {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#pics3 img {
+    width: auto;
+    height: 15%;
+}
+
+#pics3-item { 
+    background-color: rgb(0, 0, 0);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 73);
+    scrollbar-color: rgb(6, 3, 43) #000000;
+
+    height: 300px;
+} 
+
+
+#pics4 {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#pics4 img {
+    width: auto;
+    height: 20%;
+}
+
+#pics4-item { 
+    background-color: rgb(0, 0, 0);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 73);
+
+    height: 300px;
+} 
+
+
+#pics5 {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 20px;
+
+}
+
+
+#pics5-item { 
+    background-color: rgb(0, 0, 0);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 73);
+    font-weight: 100;
+    text-align: center;
+    align-content: center;
+
+    height: 300px;
+} 

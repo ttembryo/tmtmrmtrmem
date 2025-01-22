@@ -1,0 +1,101 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+body { 
+    background-color: rgb(43, 44, 60);
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+
+
+}
+
+.grid-item {
+    background-color: rgb(205, 149, 243);
+    min-height: 300px;
+    min-width: 100px;
+    gap: 30px;
+}
+
+.grid-item.a {
+    background-color: rgb(191, 250, 157);
+    
+
+}
+.grid-item.b {
+    background-color: rgb(121, 251, 221);
+
+}
+.grid-item.c {
+    background-color: rgb(220, 156, 254);
+
+}
+.grid-item.d {
+    background-color: rgb(255, 152, 246);
+
+}
+
+.grid-item.e {
+    background-color: rgb(248, 169, 205);
+    border: 60px, solid, white;
+
+}
+
+
+
+
+
+
+i drank so ,mcuh coffe today holuy jfuckkk 
+
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(142, 218, 225);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    margin-left: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px rgb(183, 253, 251);
+
+}
+
+
+header {
+    width: 200px;
+    height: 200px;
+}
+
+
+nav ul li { 
+    display: inline-block;
+}
+
+footer {
+    padding: 20px;
+}
+
+
+
+input [type=text], input [type=password] textarea {
+    display: block;
+}

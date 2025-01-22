@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> project 2 -- my new character </title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+<body>
+
+    <div id="panel"> click me </div>
+
+    <h1> agsby </h1>   
+    <img src="images/agsby.svg" alt="character sample">
+
+
+    <p> this is agsby! they are a little cat thing that really likes sans. <br> they are usually seen cloud watching on high places with their brother. </p>
+    <br> <br>
+    <h2> -- how it was made -- </h2>
+    <p> i first drew agsby in ibispaintx to sketch out what he would look like. then i drew him in figma. </p>
+
+
+
+    <script>
+        console.log ("Here")
+    </script>
+
+<br>
+    <a href="project3/game.html">
+        <button> play the game! </button> 
+    </a>
+    <br> <br>
+    
+    <script>
+        const panel = document.getElementById("panel");
+
+        panel.onclick = function() {
+            this.classList.toggle("slide-up");
+        }
+
+    </script>
+</body>
+</html>
