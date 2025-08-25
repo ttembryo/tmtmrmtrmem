@@ -1,0 +1,217 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(137, 91, 68);
+    animation: fade-in 1s ease-in-out;
+}
+
+nav {
+    background-color: rgb(231, 175, 126);
+    color: rgb(255, 246, 237);
+    text-align: center;
+    padding: 1%;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transform: translateY(-70%);
+    box-shadow: 0px 3px 5px rgb(231, 175, 126);
+}
+nav:hover {
+    background-color: rgb(229, 166, 110);
+    box-shadow: none;
+    transform: translateY(0%);
+    transition: .5s;
+}
+nav p{
+    margin-top: 1.5em;
+}
+
+main {
+    padding-top: 1em;
+}
+
+h2 {
+    margin-bottom: 2.4em;
+}
+
+#ham img{
+    width: 50%;
+    animation: ham 2s infinite linear;
+}
+
+a {
+    color: rgb(255, 246, 237);
+}
+a:hover {
+    color: rgb(255, 223, 148);
+    transition: .5s;
+}
+
+#container {
+    display: grid;
+    margin: 5%;
+    gap: 15px;
+    /* text-align: center; */
+    justify-content: center;
+}
+.grid-item {
+    background-color: aliceblue;
+}
+
+#title {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+h3 {
+    text-align: center;
+    background-color: rgb(234, 205, 162);
+    color: rgb(255, 255, 255);
+}
+
+article p{
+    padding: 0rem 0rem 1.2rem ;
+}
+
+figure {
+    text-align: center;
+    opacity: 80%;
+}
+figure:hover {
+    transform: rotate(1deg) scale(110%);
+    transition: .3s;
+    opacity: 100%;
+        figcaption {
+            opacity: 100%;
+            transition: .3s;
+        }
+}
+figcaption {
+    color: rgb(105, 181, 239);
+    opacity: 0%;
+}
+figure img{
+    width: 20%;
+    height: auto;
+}
+#subgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#subgrid img {
+    width: 50%;
+}
+
+footer {
+    color: white;
+    background-color: rgb(194, 128, 93);
+    text-align: center;
+    padding: 1%;
+}
+
+@keyframes fade-in {
+    
+    0% {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 10%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes ham {
+    0% {
+        scale: 100%;
+    }
+    50% {
+        scale: 95%;   
+    }
+    100% {
+        scale: 100%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    nav p{
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 2.35em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    article p{
+        font-size: 1.1em;
+        padding: 0rem 0rem 2rem;
+    }
+    li {
+        font-size: 1.1em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #container {
+        display: grid;
+        margin: 10%;
+    }
+    #ham img{
+        width: 40%;
+    }
+    footer {
+        font-size: 1.1em;
+    }
+
+}
+
+
+@media screen and (min-width: 1080px){
+    nav p{
+        font-size: 1.8em;
+    }
+    h1 {
+        font-size: 2.55em;
+    }
+    h2 {
+        font-size: 2.35em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    article p{
+        font-size: 1.5em;
+        padding: 0rem 0rem 4rem ;
+    }
+    li {
+        font-size: 1.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #container {
+        display: grid;
+        margin: 15%;
+    }
+    #ham img{
+        width: 30%;
+    }
+    footer {
+        font-size: 1.5em;
+    }
+
+}

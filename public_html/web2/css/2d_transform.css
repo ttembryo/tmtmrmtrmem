@@ -1,0 +1,14 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+#html5 {
+    transition: transform 0.5s;
+}
+
+#html5:hover {
+    transform: rotate(45deg);
+
+}

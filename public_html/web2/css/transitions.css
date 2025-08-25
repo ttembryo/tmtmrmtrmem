@@ -1,0 +1,118 @@
+/* transitions */
+
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(225, 106, 106);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: rgb(154, 208, 255);
+}
+hr {
+    border-color:  rgb(255, 190, 190);
+}
+
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+a:link {
+    transition: color 0.2s;
+}
+
+.section2 img {
+    opacity: 25%;
+    transition: all 500ms;
+}
+
+.section2 img:hover {
+    transform: rotate(10deg);
+    opacity: 100%;
+}
+
+.section3 img {
+    transition: all 200ms;
+} 
+
+.section3 img:hover {
+    transform: scale(200%);
+}
+
+#red {
+    transition: 500ms;
+}
+.move-right {
+    transform: translateX(900px);
+
+}
+
+.flatball {
+    transform: rotateX(55deg) rotateZ(45deg);
+    box-shadow: 44px 44px 24px rgba(133, 158, 158, 0.541);
+    border-radius: 50%;
+}
+.flatball:hover {
+    animation: levitate 5s ease-in-out backwards;
+
+   
+}
+
+
+@keyframes levitate {
+    0% {
+        transform: translateY(0px) rotateX(55deg) rotateZ(45deg);
+        box-shadow: 44px 44px 24px rgba(133, 158, 158, 0.541);
+        
+    }
+    40% {
+        transform: translateY(-150px) rotateX(55deg) rotateZ(45deg);
+        box-shadow: 200px 200px 44px rgba(133, 158, 158, 0.348);
+
+    }
+    100% {
+        transform: translateY(0px) rotateX(55deg) rotateZ(45deg);
+        box-shadow: 44px 44px 24px rgba(133, 158, 158, 0.541);
+       
+        
+    }
+}
+
+
+/* image change to another image */
+
+/* .section3 figure {
+    position: relative;
+}
+.section3 figure img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.section3 figure .visible {
+    opacity: 1;
+}
+
+.section3 figure .hidden{
+    height: 17em;
+    opacity: 0;
+}
+
+.section3 figure:hover .visible{
+    opacity: 0;
+    transition: 500ms;
+}
+
+.section3 figure:hover .hidden{
+    opacity: 1;
+    transition: 500ms;
+} */
+
+
+
