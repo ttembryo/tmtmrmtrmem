@@ -140,7 +140,7 @@ button:hover {
     }
 
     #container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-left: 0px;
     }
     #container2 {

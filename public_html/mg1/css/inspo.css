@@ -1,0 +1,65 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(/net_pics/metalheart_182.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-color: rgb(143, 167, 173);
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+    gap: 4em;
+    animation: transition 2s ease-in-out;
+}
+section {
+    display: grid;
+    gap: 2em;
+    
+}
+/* .vid {
+    background-color: rgba(28, 39, 61, 0.2);
+    box-shadow: 0px 0px 20px rgba(28, 39, 61, 0.4);
+} */
+iframe {
+    aspect-ratio: 16/9;
+    width: 80%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    opacity: 80%;
+}
+
+
+
+@media screen and (min-width: 800px){
+    main {
+        margin: 5em;
+    }
+    iframe {
+        width: 60%;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+
+}
+
+
+
+
