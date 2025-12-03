@@ -4,6 +4,7 @@ const forward = document.getElementById("forward")
 const back = document.getElementById("back")
 const view = document.getElementById("view")
 const shudder = document.getElementById("picture")
+const statue = document.getElementById("statue")
 
 
 left.addEventListener("click", function()
@@ -26,5 +27,6 @@ right.addEventListener("click", function()
 shudder.addEventListener("click", function()
 // {if (view.innerHTML = `<img src="images/statuepov.jpg">`)
 {view.innerHTML = `<img src="images/statuepic.jpg">`
+    {statue.innerHTML = `<s>quelque chose vraiment cool</s>`}
     {console.log("photo")}}
 )

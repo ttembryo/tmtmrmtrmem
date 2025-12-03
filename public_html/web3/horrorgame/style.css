@@ -91,7 +91,7 @@ p{
 
     #move {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        font-size: 20em;
+        /* font-size: 20em; */
         padding-inline: 1em;
     }
     
