@@ -24,6 +24,7 @@ right.addEventListener("click", function()
     )
 
 shudder.addEventListener("click", function()
-{if (view.innerHTML = `<img src="images/statuepov.jpg">`)
-    {view.innerHTML = `<img src="images/statuepic.jpg`}
-})
+// {if (view.innerHTML = `<img src="images/statuepov.jpg">`)
+{view.innerHTML = `<img src="images/statuepic.jpg">`
+    {console.log("photo")}}
+)
