@@ -26,8 +26,14 @@ nav {
     font-size: 10px;
     padding: 10%;
 }
-.item.b {
+#view {
     align-content: center;
+    /* background-image: url(./images/iamterrified.jpg); */
+    /* width: 50%;
+    height: 300px;
+    margin: auto; */
+    border: 1px white;
+
 }
 .item.c {
     font-size: 10px;
