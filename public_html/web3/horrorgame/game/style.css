@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     /* animation: fade-in 5s; */
+    font-size: 1.22rem;
 }
 
 button {
@@ -32,7 +33,8 @@ nav {
     /* width: 50%;
     height: 300px;
     margin: auto; */
-    border: 1px white;
+    /* border: 1px white; */
+    aspect-ratio: 3/2;
 
 }
 .item.c {
