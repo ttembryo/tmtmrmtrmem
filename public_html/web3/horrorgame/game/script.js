@@ -28,7 +28,7 @@ let tree1 ;
 let tomb ;
 let tree2 ;
 
-
+// i hate this stupid code oh my god okay so nothing works i've been working 24 hours a day for like two weeks streight and it's just streight up garbage i don't meet half the requierments but if it isn't an e for effort i might just drop out -ann
 
 
 //if (!state) {
@@ -564,7 +564,7 @@ statuecheck.addEventListener("click",function() {
 
 shudder.addEventListener("click", function(){
     
-    
+    // dosen't work
     if ("bird" == "1" + "statue" == "1" + "bench" == "1" + "flowers" == "1" + "moon" == "1" + "graves" == "1" + "tree1" == "1" + "tomb" + "1" + "tree2" == "1") {
         dialogue.innerHTML ("<p>that's all</p>")
     }
@@ -578,38 +578,43 @@ shudder.addEventListener("click", function(){
     else if (state == "s8f") {
         view.innerHTML = `<img src="images/statue/photo_statue/jpg">`
         localStorage.setItem ("statue", "1")
-        statuecheck.innerHTML `<s><ul id="gravecheck"> pierres tombales</ul></s>`
+        statuecheck.innerHTML `<s><ul> quelque chose vraiment cool</ul></s>`
     }
 
     else if (state == "be1f") {
         view.innerHTML = `<img src="images/russia/photo_bench.jpg">`
         localStorage.setItem ("bench", "1")
+        // benchcheck.innerHTML `s><ul> pierres tombales</ul></s>`
     }
 
     else if (state == "f1f") {
         view.innerHTML = `<img src="images/statue/photo_flowers`
         localStorage.setItem ("flowers", "1")
+        flowercheck.innerHTML `<s><ul> feuilles </ul></s>`
     }
 
     else if (state == "m7f") {
         view.innerHTML = `<img src="images/main/photo_moon.jpg">`
         localStorage.setItem ("moon", "1")
+        mooncheck.innerHTML `<s><ul> lune</ul></s>`
     }
 
     else if (state == "t5l") {
         view.innerHTML = `<img src="images/tomb/photo_graves.jpg">`
         localStorage.setItem ("graves", "1")
+        gravecheck.innerHTML `<s><ul> pierres tombales</ul></s>`
     }
 
     else if (state == "t7l") {
         view.innerHTML = `<img src="images/tomb/photo_tree1.jpg">`
         localStorage.setItem ("tree1", "1")
-        treecheck.innerHTML `<s><ul id="treecheck"> arbres</ul></s>`
+        treecheck.innerHTML `<s><ul> arbres</ul></s>`
     }
 
     else if (state == "t7f") {
         view.innerHTML = `<img src="images/tomb/photo_tomb.jpg">`
         localStorage.setItem ("tomb", "1")
+        tombcheck.innerHTML `<s><ul> tombeau</ul></s>`
     }
 
     else if (state == "r3b") {
